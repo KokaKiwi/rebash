@@ -36,7 +36,10 @@
   <!-- Initializer -->
   <script>
     Flatdoc.run({
-      fetcher: Flatdoc.file('//raw.githubusercontent.com/jandob/rebash/master/README.md'),
+      fetcher: Flatdoc.github({
+        repo: 'jandob/rebash',
+        token: '7ac9407d91dfc3f0395b70d6d1e140d670728a82',
+      }),
     });
   </script>
 </head>
